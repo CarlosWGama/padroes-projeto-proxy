@@ -1,6 +1,8 @@
 package exemplo.api;
 
-public class Usuario {
+import exemplo.classes.IUsuario;
+
+public class Usuario implements IUsuario {
 
 	public String getDadosPublicos() {
 		return "Nome, Email, Idade";
